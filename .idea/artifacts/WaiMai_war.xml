@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WaiMai:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WaiMai</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WaiMai-2.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WaiMai:war exploded" />
+    </root>
+  </artifact>
+</component>
